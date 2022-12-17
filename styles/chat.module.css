@@ -1,6 +1,36 @@
-.beforeChat {
-    background-color: red;
+.beforeChatContainer {
+    background-color: #22468f82;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.botIcon {
+    width: 300px;
+    height: 300px;
+    color: rgba(255, 255, 255, 0.558);
+}
+
+
+.appName {
+    font-size: 50px;
+}
+
+.question {
+    color: rgba(255, 255, 255, 0.558);
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
 
 .chat {
     background-color: #27c63aa7;

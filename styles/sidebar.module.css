@@ -38,7 +38,7 @@
 .chatBox {
     background-color: #316dc280;
     border-radius: 10px;
-    width: 415px;
+    width: 400px;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -53,4 +53,8 @@
     background-image: url('../public/images/bot.png');
     background-size: cover;
     border-radius: 100px;
+}
+
+.botName {
+    color: rgba(255, 255, 255, 0.558);
 }

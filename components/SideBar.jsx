@@ -1,6 +1,5 @@
 'use client'
 import styles from '../styles/sidebar.module.css';
-import { FaRobot } from 'react-icons/fa';
 
 export default function SideBar() {
   return (
@@ -12,7 +11,7 @@ export default function SideBar() {
       <div className={styles.chatBoxContainer}>
         <div className={styles.chatBox}>
           <div className={styles.botImage}></div>
-          <p>ChatBot</p>
+          <p className={styles.botName}>ChatBot</p>
         </div>
       </div>
     </div>
