@@ -1,0 +1,9 @@
+.beforeChat {
+    background-color: red;
+}
+
+.chat {
+    background-color: #27c63aa7;
+    width: 70vw;
+    height: 100vh;
+}

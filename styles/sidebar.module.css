@@ -1,0 +1,56 @@
+.chatContainer {
+    display: flex;
+}
+
+.sideBarContainer {
+    background-color: #14215b;
+    width: 30vw;
+    height: 100vh;
+}
+
+.sideBarHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.sideBarPicture {
+    width: 200px;
+    height: 200px;
+    background-image: url('../public/images/login.png');
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.greeting {
+    margin: 15px;
+}
+
+.chatBoxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.chatBox {
+    background-color: #316dc280;
+    border-radius: 10px;
+    width: 415px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.botImage {
+    width: 50px;
+    height: 50px;
+    background-image: url('../public/images/bot.png');
+    background-size: cover;
+    border-radius: 100px;
+}
