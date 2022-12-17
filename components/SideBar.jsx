@@ -1,5 +1,6 @@
 'use client'
 import styles from '../styles/sidebar.module.css';
+import Link from 'next/link';
 
 export default function SideBar() {
   return (
@@ -14,6 +15,16 @@ export default function SideBar() {
           <p className={styles.botName}>ChatBot</p>
         </div>
       </div>
+      <Link
+        href={'/'}
+        className={styles.logoutButtonContainer}
+      >
+        <button
+          className={styles.logoutButton}
+        >
+          Log out
+        </button>
+      </Link>
     </div>
   )
 }
