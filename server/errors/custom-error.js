@@ -1,3 +1,5 @@
+
+// This class is in charge of customize the errors
 class CustomAPIError extends Error {
     constructor(message, statusCode) {
         super(message)
