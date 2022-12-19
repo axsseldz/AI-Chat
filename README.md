@@ -6,7 +6,7 @@ This is a Next.js web app and Express, using MondoDB as database and Wolfram Alp
 
 ## Technologies
 
-### Next.js                  
+### Next.js 13                
 ### JavaScript
 ### Express
 ### Mongo DB
