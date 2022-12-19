@@ -13,25 +13,25 @@ Our AI chat bot is a cutting-edge technology that allows users to have intellige
 ### Wolfram Alpha AI API
 
 
-<p align="center">
+##
 ## Sign Up
 
 <img src='./public/images/signup.png'/>
 
 
-<p align="center">
+##
 ## Log In
 
 <img src='./public/images/login-image.png'/>
 
 
-<p align="center">
+##
 ## Before Chat
 
 <img src='./public/images/prev-chat.png'/>
 
 
-<p align="center">
+##
 ## Chat
 
 <img src='./public/images/chat-image.png'/>
