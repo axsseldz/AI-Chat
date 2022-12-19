@@ -1,18 +1,28 @@
-import UserInput from "../components/UserInput";
-import styles from '../styles/login.module.css';
+'use client'
+import LoginInput from "../components/LoginInput";
+import { useState } from 'react';
 
 
 export default function LogIn() {
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+
+  const [emailField, setEmailField] = useState('')
+  const [passwordField, setPasswordField] = useState('')
+
   return (
-    <di>
-      <UserInput
-        message='WELCOME BACK !!'
-        route='/signup'
-        buttonName='LOG IN'
-        question='New here?'
-        routeName='Sign up'
-        pictureStyle={styles.loginPicture}
+    <div>
+      <LoginInput
+        email={email}
+        setEmail={setEmail}
+        password={password}
+        setPassword={setPassword}
+
+        emailField={emailField}
+        setEmailField={setEmailField}
+        passwordField={passwordField}
+        setPasswordField={setPasswordField}
       />
-    </di>
+    </div>
   )
 }

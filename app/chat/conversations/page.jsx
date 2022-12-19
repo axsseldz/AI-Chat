@@ -1,10 +1,13 @@
-import styles from '../../../styles/chat.module.css';
 import Chat from '../../../components/Chat';
+import { AiAPICall } from '../../../API/Ai';
 
-export default function ChatPage() {
-    return (
-        <div>
-            <Chat />
-        </div>
-    )
+
+export default async function ChatPage() {
+  const response = await AiAPICall('What time is in Tokio')
+
+  return (
+    <div>
+      <Chat response={response.result} />
+    </div>
+  )
 }

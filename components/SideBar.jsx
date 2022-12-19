@@ -11,7 +11,9 @@ export default function SideBar() {
       </div>
       <div className={styles.chatBoxContainer}>
         <div className={styles.chatBox}>
-          <div className={styles.botImage}></div>
+          <Link href={'/chat/conversations'}>
+            <div className={styles.botImage}></div>
+          </Link>
           <p className={styles.botName}>ChatBot</p>
         </div>
       </div>
