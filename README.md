@@ -1,8 +1,10 @@
-#AI Chat 
+Full Stack Web App | AI Chat 🤖 🧬
 
 <p align="center">
 Our AI chat bot is a cutting-edge technology that allows users to have intelligent conversations with an artificial intelligence. It can answer questions, provide information, and even engage in casual conversation just like a human would.
 This is a Next.js web app and Express, using MondoDB as database and Wolfram Alpha AI API.
+  
+  
 
 ## Technologies
 
@@ -16,6 +18,8 @@ This is a Next.js web app and Express, using MondoDB as database and Wolfram Alp
 ### Node.js
 ### Wolfram Alpha AI API
 
+  
+  
 
 ##
 ## Sign Up
