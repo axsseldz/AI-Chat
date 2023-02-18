@@ -45,20 +45,6 @@ This is a Next.js web app and Express, using MondoDB as database and Wolfram Alp
 <img src='./public/images/chat-image.png'/>
 
 
-## Get Started
-
-1. Clone this repository and run:
-```sh
-npm install
-```
-2. Run the web server:
-```sh
-npm run server
-```
-3. Run the web app:
-```sh
-npm run dev
-```
 
 
 
